@@ -1,18 +1,54 @@
-## Getting Started
+# Wordify — A Wordle-like Game in Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Wordify** is a fun clone of the popular Wordle game, implemented using Java Swing for a simple and interactive GUI.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## Features
+- Word guessing game with limited attempts
+- Color-coded feedback (like Wordle: green/yellow/grey)
+- Simple graphical interface
+- Lightweight and fast
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## How to Build & Run
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Run the prebuilt `.jar` (recommended)
+You can simply download and run the precompiled JAR file:
 
-## Dependency Management
+```bash
+java -jar Wordify.jar
+```
+## Build From Source
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Compile
+```bash
+javac -d bin -sourcepath src src/com/example/App.java
+```
+
+### Run
+```bash
+java -cp bin com.example.App
+```
+
+## Project Structure
+
+Wordify/
+├── README.md
+├── manifest.txt
+├── Wordify.jar
+├── src/
+│   └── com/
+│       └── example/
+│           ├── App.java
+│           ├── WordifyGame.class
+│           └── (other files)
+├── bin/             (generated after compilation)
+├── .gitignore
+
+## Technologies
+- Java 8+
+- Swing GUI
+
+  
