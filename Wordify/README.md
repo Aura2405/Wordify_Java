@@ -33,7 +33,7 @@ java -cp bin com.example.App
 ```
 
 ## Project Structure
-
+```pgsql
 Wordify/
 ├── README.md
 ├── manifest.txt
@@ -46,7 +46,7 @@ Wordify/
 │           └── (other files)
 ├── bin/             (generated after compilation)
 ├── .gitignore
-
+```
 ## Technologies
 - Java 8+
 - Swing GUI
