@@ -18,18 +18,18 @@
 You can simply download and run the precompiled JAR file:
 
 ```bash
-java -jar Wordify.jar
+java -jar WordifyGame.jar
 ```
 ## Build From Source
 
 ### Compile
 ```bash
-javac -d bin -sourcepath src src/com/example/App.java
+javac -d bin -sourcepath src src/com/example/WordifyGame.java
 ```
 
 ### Run
 ```bash
-java -cp bin com.example.App
+java -cp bin com.example.WordifyGame
 ```
 
 ## Project Structure
@@ -41,9 +41,10 @@ Wordify/
 ├── src/
 │   └── com/
 │       └── example/
-│           ├── App.java
+│           ├── WordifyGame.java
 │           ├── WordifyGame.class
 │           └── (other files)
+├── 5-letter-words.txt
 ├── bin/             (generated after compilation)
 ├── .gitignore
 ```
